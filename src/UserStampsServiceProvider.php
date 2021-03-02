@@ -1,6 +1,6 @@
 <?php
 
-namespace Fnematov\Userstamps;
+namespace Fnematov\LaravelUserstamps;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Schema\Blueprint;

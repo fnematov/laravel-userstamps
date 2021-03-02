@@ -1,6 +1,6 @@
 <?php
 
-namespace Fnematov\Userstamps;
+namespace Fnematov\LaravelUserstamps;
 
 use App\User;
 use Illuminate\Database\Eloquent\Builder;
@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method   string getTable()
  * @method   void observe($observer)
  * @method   BelongsTo belongsTo($related, $foreignKey = null, $otherKey = null, $relation = null)
- * @package  Fnematov\Userstamps
+ * @package  Fnematov\LaravelUserstamps
  */
 
 trait UserstampsTrait

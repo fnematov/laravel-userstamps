@@ -29,13 +29,13 @@
   "time": "2021-03-02",
   "autoload": {
     "psr-4": {
-      "Fnematov\\Userstamps\\": "src/"
+      "Fnematov\\LaravelUserstamps\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Fnematov\\Userstamps\\UserstampsServiceProvider"
+        "Fnematov\\LaravelUserstamps\\LaravelUserstampsServiceProvider"
       ]
     }
   }
