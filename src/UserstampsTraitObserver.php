@@ -1,18 +1,18 @@
 <?php
 
-namespace Fnematov\LaravelUserstamps;
+namespace Fnematov\Userstamps;
 
 /**
  * Class Userstamps
  *
- * @package Fnematov\LaravelUserstamps
+ * @package Fnematov\Userstamps
  */
 class UserstampsTraitObserver
 {
     /**
      * Model's creating event hook.
      *
-     * @param \Fnematov\LaravelUserstamps\LaravelUserstampsTrait $model
+     * @param \Fnematov\Userstamps\UserstampsTrait $model
      */
     public function creating($model)
     {
@@ -39,7 +39,7 @@ class UserstampsTraitObserver
     /**
      * Model's updating event hook.
      *
-     * @param \Fnematov\LaravelUserstamps\LaravelUserstampsTrait $model
+     * @param \Fnematov\Userstamps\UserstampsTrait $model
      */
     public function updating($model)
     {
@@ -51,7 +51,7 @@ class UserstampsTraitObserver
     /**
      * Model's saving event hook.
      *
-     * @param \Fnematov\LaravelUserstamps\LaravelUserstampsTrait $model
+     * @param \Fnematov\Userstamps\UserstampsTrait $model
      */
     public function saving($model)
     {
@@ -64,7 +64,7 @@ class UserstampsTraitObserver
     /**
      * Model's deleting event hook.
      *
-     * @param \Fnematov\LaravelUserstamps\LaravelUserstampsTrait $model
+     * @param \Fnematov\Userstamps\UserstampsTrait $model
      */
     public function deleting($model)
     {
@@ -78,7 +78,7 @@ class UserstampsTraitObserver
     /**
      * Model's restoring event hook.
      *
-     * @param \Fnematov\LaravelUserstamps\LaravelUserstampsTrait $model
+     * @param \Fnematov\Userstamps\UserstampsTrait $model
      */
     public function restoring($model)
     {
