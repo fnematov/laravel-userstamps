@@ -29,7 +29,7 @@
   "time": "2021-03-02",
   "autoload": {
     "psr-4": {
-      "Fnematov\\Userstamps\\": "src"
+      "Fnematov\\Userstamps\\": "src/"
     }
   },
   "extra": {
