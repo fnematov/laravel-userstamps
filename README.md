@@ -24,7 +24,7 @@ Then use `UserstampsTrait` on your model.
 ``` php
 namespace App;
 
-use Fnematov\Userstamps\UserstampsTrait;
+use Fnematov\LaravelUserstamps\UserstampsTrait;
 
 class User extends Model
 {
