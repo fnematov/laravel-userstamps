@@ -1,6 +1,6 @@
 <?php
 
-namespace Fnematov\LaravelUserstamps;
+namespace Fnematov\Userstamps;
 
 use App\User;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -14,7 +14,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method   string getTable()
  * @method   void observe($observer)
  * @method   BelongsTo belongsTo($related, $foreignKey = null, $otherKey = null, $relation = null)
- * @package  Fnematov\LaravelUserstamps
+ * @package  Fnematov\Userstamps
  */
 
 trait UserstampsTrait
@@ -112,7 +112,7 @@ trait UserstampsTrait
      */
     public function getUserInstance()
     {
-        $class = config('auth.providers.users.model', User::class);
+        $class = config('auth.providers.users.model', app()->version() >= 8 ? App\Models\User::class : User::class);
 
         return new $class;
     }
